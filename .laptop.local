@@ -18,6 +18,7 @@ brew tap render-oss/render # https://docs.render.com/cli
 brew install exercism # https://exercism.org/cli-walkthrough
 brew install hashicorp/tap/terraform # https://developer.hashicorp.com/terraform/install
 brew install idb-companion # https://github.com/facebook/homebrew-fb
+brew install ngrok/ngrok/ngrok # https://ngrok.com/docs/getting-started/
 brew install render # https://docs.render.com/cli
 brew install tmuxinator
 
