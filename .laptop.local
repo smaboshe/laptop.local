@@ -1,26 +1,34 @@
 #!/bin/sh
 
-brew install --cask 1password/tap/1password-cli
+brew install 1password-cli # https://developer.1password.com/docs/cli/get-started/#install
+brew install exercism # https://exercism.org/cli-walkthrough
+brew install ollama
+brew install pinentry-mac
+brew install roots/tap/trellis-cli
+brew install tmuxinator
+brew install watch
+
 brew install --cask android-studio
 brew install --cask blender
+brew install --cask canva
 brew install --cask cloudflare-warp
+brew install --cask deezer
+brew install --cask discord
+brew install --cask docker
 brew install --cask firefox
+brew install --cask gimp
 brew install --cask godot
 brew install --cask iterm2
+brew install --cask obsidian
+brew install --cask openmtp
+brew install --cask slack
 brew install --cask sublime-text
 brew install --cask telegram
 brew install --cask tuple
-
-brew tap facebook/fb # https://github.com/facebook/homebrew-fb
-brew tap hashicorp/tap # https://developer.hashicorp.com/terraform/install
-brew tap render-oss/render # https://docs.render.com/cli
-
-brew install exercism # https://exercism.org/cli-walkthrough
-brew install hashicorp/tap/terraform # https://developer.hashicorp.com/terraform/install
-brew install idb-companion # https://github.com/facebook/homebrew-fb
-brew install ngrok/ngrok/ngrok # https://ngrok.com/docs/getting-started/
-brew install render # https://docs.render.com/cli
-brew install tmuxinator
+brew install --cask vagrant
+brew install --cask virtualbox
+brew install --cask visual-studio-code@insiders
+brew install --cask whatsapp
 
 brew update
 brew upgrade
